@@ -138,11 +138,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
+  list-style: none;
 }
 .table__cell {
   width: 250px;
   margin-top: 60px;
   margin-right: 0;
+
 }
 .table__heading {
   margin: 0;
@@ -279,6 +281,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  list-style: none;
 }
 .footer__social-icon {
   height: 10px;
