@@ -9,7 +9,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2 ;
+  background-color: #f2f2f2;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -201,7 +201,7 @@
 }
 
 .section-title_theme_dark {
-  color: #fff
+  color: #fff;
 }
 
 .section-subtitle_theme_dark {
