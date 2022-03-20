@@ -67,6 +67,8 @@
   position: absolute;
   right: 0;
   top: 64px;
+  animation-name: rotation;
+  animation: rotation infinite, rotation 5s;
 }
   /* Блок HEADER - END*/
 
@@ -161,8 +163,8 @@
 }
   /*Блок digits END*/
 
-  /*Блок Feinman*/
-.feinman {
+  /*Блок Feynman*/
+.feynman {
   height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
@@ -170,7 +172,7 @@
   background-position: left bottom;
   position: relative;
 }
-.feinman__title{
+.feynman__title{
   width: 648px;
   margin: 0 auto;
   padding-top: 100px;
@@ -179,7 +181,7 @@
   font-size: 120px;
   font-weight: bold;
 }
-.feinman__subtitle {
+.feynman__subtitle {
   margin: 70px auto 0;
   text-align: center;
   line-height: 51px;
@@ -187,7 +189,7 @@
   font-weight: normal;
 }
 
-.faiman__link {
+.faynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
@@ -219,6 +221,7 @@
   z-index: 2;
 }
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   height: 877px;
   width: 877px;
   position: absolute;
@@ -264,19 +267,19 @@
   margin: 0;
 }
 
-.footer__links {
+.footer__column-links {
   margin-top: 20px;
   margin-bottom: 16px;
   display: flex;
   flex-direction: column;
 }
 
-.footer__column-heading{
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
-.footer__link{
+.footer__column-link {
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -285,8 +288,12 @@
   color: #fff;
 }
 .footer__social-icon {
-  height: 10px;
-  width: 10px;
+  height: 16px;
+  width: 16px;
   margin-right: 10px;
+}
+
+.footer__list {
+  list-style: none;
 }
 /*Блок footer END*/
